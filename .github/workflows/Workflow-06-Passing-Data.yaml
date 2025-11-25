@@ -1,4 +1,4 @@
-name: Passing Variables Between jobs
+name: 06-Passing-Variables-Between-Jobs
 on:
   workflow_dispatch:
 

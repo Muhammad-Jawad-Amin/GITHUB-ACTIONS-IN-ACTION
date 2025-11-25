@@ -1,4 +1,4 @@
-name: Triggering Events
+name: 04-Triggering-Events
 
 on:
   push:

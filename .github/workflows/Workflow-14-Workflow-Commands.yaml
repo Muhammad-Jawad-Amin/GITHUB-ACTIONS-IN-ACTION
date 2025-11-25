@@ -1,4 +1,4 @@
-name: Workflow Commands
+name: 14-Workflow-Commands
 
 on:
   workflow_dispatch:

@@ -1,4 +1,4 @@
-name: Matrix and Conditionals
+name: 12-Matrix-And-Conditionals
 
 on:
   workflow_dispatch:

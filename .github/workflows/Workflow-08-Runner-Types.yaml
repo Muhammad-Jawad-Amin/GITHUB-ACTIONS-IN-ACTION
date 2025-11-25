@@ -1,4 +1,4 @@
-name: Runner types
+name: 08-Runner-Types
 on:
   workflow_dispatch:
 

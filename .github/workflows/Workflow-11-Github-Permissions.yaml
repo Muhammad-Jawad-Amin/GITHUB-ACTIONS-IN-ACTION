@@ -1,4 +1,4 @@
-name: Permissions
+name: 11-Permissions
 
 on:
   workflow_dispatch:

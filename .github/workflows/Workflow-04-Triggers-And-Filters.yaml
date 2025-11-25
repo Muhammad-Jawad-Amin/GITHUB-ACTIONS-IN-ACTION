@@ -1,0 +1,29 @@
+name: Triggering Events
+
+on:
+  push:
+    branches:
+      - "temp_branch/*"
+
+  pull_request:
+    types:
+      - opened
+      - synchronize
+      - reopened
+    paths:
+      - "temp_dir/*.md"
+      - "!temp_dir/*.txt"
+
+  # schedule:
+  #     - cron: "*/5 * * * *"
+
+  workflow_dispatch:
+    
+jobs:
+  echo-event:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Dump full event JSON
+        run: |
+          echo "=== $GITHUB_EVENT_NAME payload ==="
+          cat "$GITHUB_EVENT_PATH"
